@@ -1,5 +1,6 @@
 from encodings import utf_8
 from threading import Thread
+from multiprocessing import  Process
 import zipfile
 import os
 import sys
@@ -31,7 +32,6 @@ def crackIt(zFile,files):
                 password = line.strip('\n')
                 t = Thread(target=extractFile,args=(zFile,password))
                 t.start()
-                t.join()
 
 if __name__ == "__main__":
     flag = 0
