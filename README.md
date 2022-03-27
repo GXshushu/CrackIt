@@ -4,3 +4,5 @@
 只要把字典文件放进./dict里面，运行的时候就会自动读取
 ## 运行
 python crackIt.py [ZipFilename]
+## 测试
+python crackIt.py testZip_2.zip
