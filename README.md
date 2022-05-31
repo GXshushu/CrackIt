@@ -18,4 +18,5 @@
 python crackIt.py [ZipFilename|RarFilename|7zFilename]
 ## 测试
 python crackIt.py testZip_2.zip
+
 python crackIt.py testZip.rar
